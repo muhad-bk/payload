@@ -207,5 +207,16 @@
     "node": "^18.20.2 || >=20.9.0",
     "pnpm": "^9.7.0"
   },
-  "pnpm": {}
+  "pnpm": {
+    "overrides": {
+      "copyfiles": "catalog:",
+      "cross-env": "catalog:",
+      "dotenv": "catalog:",
+      "graphql": "catalog:",
+      "mongodb-memory-server": "catalog:",
+      "react": "catalog:",
+      "react-dom": "catalog:",
+      "typescript": "catalog:"
+    }
+  }
 }
